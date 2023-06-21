@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Kalkulator Suhu Celcius ke Fahrenheit</title>
+</head>
+<body>
+  <h1>Kalkulator Suhu Celcius ke Fahrenheit</h1>
+  <main>
+    <div class="container">
+      <div class="form-group">
+        <label for="tempInput">Masukkan suhu dalam Celsius</label>
+        <input type="number" id="tempInput" placeholder="Contoh: 25">
+      </div>
+      <div class="form-group">
+        <button class="btn" onclick="convert()">Konversi</button>
+      </div>
+      <div class="form-group">
+        <button class="btn" onclick="reset()">Reset</button>
+      </div>
+      <div class="form-group">
+        <button class="btn" onclick="reverse()">Reverse</button>
+      </div>
+      <div class="result" id="result"></div>
+    </div>  
+  </main>
+    <script src="js/script.js"></script>
+    <p>
+    Cara Konversi Dari Celcius (°C) ke Fahrenheit
+    Suhu S dalam derajat Fahrenheit (°F) sama dengan suhu S dalam derajat celcius (°C) kali 9/5 tambah 32
+    S(°F)=(S(°C)x9/5) + 32
+    atau 
+    S(°F)=(S(°C)x1.8) + 32
+    </p>
+</body>
+</html>
